@@ -1,0 +1,6 @@
+node_modules/
+.preview/
+dist/
+.deploy-tools/
+.deploy-checkout/
+*.local

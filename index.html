@@ -1,0 +1,28 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <script>
+      try {
+        const theme = localStorage.getItem('portfolio-theme') === 'light' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').content = theme === 'light' ? '#f6f9fc' : '#000000';
+      } catch {}
+    </script>
+    <meta name="description" content="Ahmad Aziman — full-stack developer in Malaysia. Building thoughtful interfaces and connected systems that make complex work feel simple." />
+    <meta property="og:title" content="Ahmad Aziman — Full Stack Developer" />
+    <meta property="og:description" content="Thoughtful interfaces. Connected systems. Real-world purpose. Explore the work of full-stack developer Ahmad Aziman." />
+    <meta property="og:type" content="website" />
+    <title>Ahmad Aziman | Full Stack Developer</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23000000'/%3E%3Ctext x='10' y='46' fill='%231abdf0' font-family='Arial' font-weight='bold' font-style='italic' font-size='45'%3EA%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fugaz+One&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
