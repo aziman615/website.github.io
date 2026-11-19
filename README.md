@@ -1,7 +1,5 @@
 # Ahmad Aziman — Portfolio
 
-A responsive React portfolio with dark and light themes, cyan accents, bold slanted typography, floating glass navigation, outlined section headings, and glowing technology icons. Inspired by the supplied [Abdullah portfolio reference](https://abdullah-portfolio-dev.vercel.app/). Built with Vite.
-
 ## Local development
 
 Requires Node.js 18 or newer.
